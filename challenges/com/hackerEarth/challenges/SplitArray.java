@@ -1,4 +1,4 @@
-package com.hackerEarth.challanges;
+package com.hackerEarth.challenges;
 
 import java.util.Arrays;
 
