@@ -2,12 +2,12 @@ package com.poc.bitwise;public class BitwiseOperations {
 
 	public static void main(String[] args) {
 		
-		xorOfTwoDifferentNumbersIsSum(12,33);
+		xorOfTwoDifferentNumbersIsSum(43,33);
 		xorOfTwoSameNumbersIsZero(2,2);
-		
+		complementOfInteger(2147483647);
 	}
 
-	/**
+	private static void complementOfInteger(long i) {		long ci = (1<<32);		long cii = 1<<34;		Long l = 232342342342L;		Byte b = l.byteValue();		System.out.println(ci+","+cii);			}	/**
 	 * xor sum of 2 different numbers
 	 * @param i
 	 * @param j
