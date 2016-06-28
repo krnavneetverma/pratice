@@ -1,7 +1,7 @@
 package com.poc.bitwise;public class BitwiseOperations {
 
 	public static void main(String[] args) {
-		
+				xorOfTwoDifferentNumbersIsSum(33,43);
 		xorOfTwoDifferentNumbersIsSum(43,33);
 		xorOfTwoSameNumbersIsZero(2,2);
 		complementOfInteger(2147483647);
