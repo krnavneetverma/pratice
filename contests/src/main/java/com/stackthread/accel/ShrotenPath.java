@@ -54,7 +54,7 @@ public class ShrotenPath {
     }
 
     private static Map<Character, Integer> getDirectionMap(char[] chDir) {
-        Map <Character,Integer> dirMap = new LinkedHashMap<>();
+        Map <Character,Integer> dirMap = new LinkedHashMap<Character,Integer>();
         int chDirLen = chDir.length;
         int tmp = 0;
         char dir = NORTH;

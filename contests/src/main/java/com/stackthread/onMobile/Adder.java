@@ -11,12 +11,11 @@ interface Subtraction{
 public class Adder implements Addition,Subtraction
 {
 
-	@Override
 	public int add(int a, int b) {
 		return a+b;
 	}
 
-	@Override
+
 	public int subtract(int a, int b) {
 		if(a>b)
 			return a-b;

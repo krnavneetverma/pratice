@@ -13,7 +13,7 @@ public class NavisParty {
 		int n = sc.nextInt();
 		int q = sc.nextInt();
 		Map <String,Person> nameMap = new HashMap<String,Person>(n);
-		List <String> susList = new ArrayList<>();
+		List <String> susList = new ArrayList<String>();
 		String name;
 		Person person;
 		for (int i = 0; i < n; i++) {

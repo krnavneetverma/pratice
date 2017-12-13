@@ -11,7 +11,7 @@ import java.util.Set;
 public class FactorialLength {
 
 	public static void main(String[] args) {
-		Set<Integer> ipSet = new HashSet<>();
+		Set<Integer> ipSet = new HashSet<Integer>();
 		ipSet.add(1);
 		ipSet.add(2);
 		ipSet.add(3);
