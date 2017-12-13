@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="challenges"/>
+	<classpathentry kind="src" path="domain/algo"/>
+	<classpathentry kind="src" path="domain/pattern"/>
+	<classpathentry kind="src" path="mission"/>
+	<classpathentry kind="src" path="poc"/>
+	<classpathentry kind="src" path="series/projectEuler"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
